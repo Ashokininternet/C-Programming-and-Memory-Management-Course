@@ -5,4 +5,6 @@ int main() {
     int num = 45;
     char day[] = "years";
     printf("ashok is %d %s old",  num, day );
+
+    return 0;
 }
