@@ -18,7 +18,7 @@ int main(){
   }
 
   for(int i = 0; i < num; i++){
-   printf("%c ", array[i]);
+   printf("%c = %p \n", array[i], (void *)&array[i]);
   }
 
   free(array);
